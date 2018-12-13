@@ -1,0 +1,22 @@
+▶ 2018.12.12◀ 
+
+▷ Java의 정석 [ Chapter 01 - 자바를 시작하기 전에 ]
+
+Java를 이용해 간단한 출력을 할 수 있는 프로그램 예제를 배웠다. 
+
+- 'Hello, world.'를 출력하는 프로그램 예제 -
+
+class hello {
+      public static void main(string[] args) {
+           System.out.println("Hello, world."); // 화면에 글자를 출력한다.
+      }
+}
+
+＃ 실행결과 > Hello, world.
+
++ ' public static void main(String[] args)'는 main메서드의 선언부인데,
+프로그램을 실행할 때 'java.exe'에 의해 호출될 수 있도록 미리 약속된 부분이므로 항상 똑같이 적어주어야 한다.
+
+모든 클래스가 main메서드를 가지고 있어야 하는 것은 아니지만,
+하나의 Java 애플리케이션에는 main메서드를 포함한 클래스가 반드시 하나는 있어야 한다.
+main메서드 없이는 실행 불가능하고 'java.exe' 다음에 main메서드를 포함한 클래스의 이름을 적어줘야 한다.
