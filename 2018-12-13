@@ -14,6 +14,15 @@ class hello {
 
 ＃ 실행결과 > Hello, world.
 
+- 주석 처리하기 -
+
+class 클래스 이름  {
+    public static void main (string[] args) // main메서드의 선언부
+    {    
+      /* 주석을 제외한 모든 코드는 클래스의 블럭 { } 내에 작성해야하고 이 칸에는 실행될 문장들을 적는다. */
+      }
+  }
+
 + ' public static void main(String[] args)'는 main메서드의 선언부인데,
 프로그램을 실행할 때 'java.exe'에 의해 호출될 수 있도록 미리 약속된 부분이므로 항상 똑같이 적어주어야 한다.
 
