@@ -4,16 +4,21 @@
 
 - 책에 있는 예제를 응용해서 만든 프로그램 -
 
-Class VarEx2
-  Public static void main (string[] args){
-    int x = 3000, y = 5000;
-    int tmp = 0;
-    system.out.println ("x:"+x+"y:"+y);
-    tmp = x;
-    x = y;
-    y = tmp;
-    system.out.println("x:"+x+"y:"+y);
-    }
+package value;
+
+public class VarEx2 {
+
+	public static void main(String[] args) {
+		 int x = 3000, y = 5000;
+		    int tmp = 0;
+		    System.out.println ("x:"+x+"y:"+y);
+		    tmp = x;
+		    x = y;
+		    y = tmp;
+		    System.out.println("x:"+x+"y:"+y);
+
+	}
+
 }
 
 # 변수의 명명규칙
