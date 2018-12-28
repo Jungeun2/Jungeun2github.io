@@ -1,7 +1,10 @@
 # Jungeun2github.io
 Jungeun2 blog
 
-2018-12-27
+▶ 2018.12.28◀ 
+
+▷ Java의 정석 [ Chapter 02 - 연습문제 ]
+
 
 ![kakaotalk_photo_2018-12-28-21-35-34](https://user-images.githubusercontent.com/45205109/50515802-30de2280-0aea-11e9-9bbb-b5a3868a1f72.jpeg)
 ![kakaotalk_photo_2018-12-28-21-35-50](https://user-images.githubusercontent.com/45205109/50515805-320f4f80-0aea-11e9-9888-0b4aaec6e9f9.jpeg)
