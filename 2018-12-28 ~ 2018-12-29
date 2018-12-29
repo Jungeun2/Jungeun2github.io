@@ -221,7 +221,70 @@ public class Ch02Ex02_06 {
 
 // 2-7
 
+package ex;
 
+import java.util.*;
+
+public class Ch02Ex02_07 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		
+		System.out.print("height = ");
+		int input = scanner.nextInt();
+		System.out.printf("Your height is %d cm.",input);
+	}
+}
+
+==============================================================
+
+// 2-8
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_08 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		double a = scanner.nextDouble();
+		double b = scanner.nextDouble();
+		String c = scanner.nextLine();
+		// System.out.println(c.charAt(0)); java에서는 char형을 바로 입력받지 못해서 String형에서 입력받을것을 이용하여 charAt()을 써줘서 char형으로 변환하는 과정
+		System.out.printf("%.2f\n%.2f\n%s",a,b,c);
+	}
+}
+
+주석처리 해놓은것이 char형으로 바뀐다면 %c로 바꾸면 문자가 출력이 될텐데,, 거의 1시간동안 코드를 고쳐봐도 A가 출력이 되지 않습니다 ㅠㅠ 
+===============================================================
+
+// 2-9
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_04 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		double a = scanner.nextDouble();
+		float b = scanner.nextFloat();
+		float c = scanner.nextFloat();
+		System.out.printf("%.3f\n%.3f\n%.3f",a,b,c);
+	}
+}
+
+================================================================
+
+// 2-10
 
 
 
