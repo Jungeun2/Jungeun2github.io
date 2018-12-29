@@ -52,18 +52,10 @@ package ex;
 public class Ch02Ex01_04 {
 
 	public static void main(String[] args) {
-		System.out.print("      item");
-		System.out.print("     count");
-		System.out.println("     price");
-		System.out.print("       pen");
-		System.out.print("        20");
-		System.out.println("        95");
-		System.out.print("      note");
-		System.out.print("         5");
-		System.out.println("        95");
-		System.out.print("    eraser");
-		System.out.print("       110");
-		System.out.print("        97");
+		System.out.println("      item     count     price");
+		System.out.println("       pen        20        95");
+		System.out.println("      note         5        95");
+		System.out.println("    eraser       110        97");
 	}
 }
 
@@ -76,21 +68,11 @@ package ex;
 public class Ch02Ex01_05 {
 
 	public static void main(String[] args) {
-		System.out.print("          Seoul");
-		System.out.print("     10,312,545");
-		System.out.println("        +91,375");
-		System.out.print("          Pusan");
-		System.out.print("      3,567,910");
-		System.out.println("         +5,869");
-		System.out.print("        Incheon");
-		System.out.print("      2,758,296");
-		System.out.println("        +64,888");
-		System.out.print("          Daegu");
-		System.out.print("      2,511,676");
-		System.out.println("        +17,230");
-		System.out.print("        Gwangju");
-		System.out.print("      1,454,636");
-		System.out.print("        +29,774");
+		System.out.println("          Seoul     10,312,545        +91,375");
+		System.out.println("          Pusan      3,567,910         +5,869");
+		System.out.println("        Incheon      2,758,296        +64,888");
+		System.out.println("          Daegu      2,511,676        +17,230");
+		System.out.println("        Gwangju      1,454,636        +29,774");
 	}
 }
 
