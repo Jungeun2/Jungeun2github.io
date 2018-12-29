@@ -122,10 +122,9 @@ public class Ch02Ex02_02 {
 
 	public static void main(String[] args) {
 		
-		
-		
-		Scanner scanner = new Scanner(System.in);
-		String input = scanner.nextLine();
+		Scanner a = new Scanner(System.in);
+		String input = a.nextLine();
+		System.out.println(input);
 	}
 }
 
@@ -141,9 +140,13 @@ public class Ch02Ex02_03 {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner (System.in);
-		String input = scanner.nextLine();
-		String input2 = scanner.nextLine();
+		Scanner a = new Scanner(System.in);
+		String input = a.nextLine();
+		System.out.println(input);
+		
+		Scanner b = new Scanner(System.in);
+		String input2 = b.nextLine();
+		System.out.println(input2);
 	}
 }
 
