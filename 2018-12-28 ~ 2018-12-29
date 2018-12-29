@@ -269,7 +269,7 @@ package ex;
 
 import java.util.*;
 
-public class Ch02Ex02_04 {
+public class Ch02Ex02_09 {
 
 	public static void main(String[] args) {
 		
@@ -285,6 +285,108 @@ public class Ch02Ex02_04 {
 ================================================================
 
 // 2-10
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_10 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		System.out.printf("%d + %d = %d",a,b,a+b);
+	}
+}
+
+================================================================
+
+// 2-11
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_11 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		double a = scanner.nextDouble();
+		double b = scanner.nextDouble();
+		System.out.printf("      %.2f      %.2f      %.2f",a,b,a+b);
+		
+	}
+}
+
+===============================================================
+
+// 2-12
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_12 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		int a = scanner.nextInt();
+		double b = scanner.nextDouble();
+		System.out.printf("%.2f * %d = %.0f",b,a,b*a);
+	}
+}
+
+==============================================================
+
+// 2-13
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_13 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		int c = scanner.nextInt();
+		
+		System.out.printf("sum = %d\n",a+b+c);
+		System.out.printf("avg = %d",(a+b+c)/3);
+	}
+}
+
+===============================================================
+
+// 2-14
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_14 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		double yd = 91.44;
+		System.out.printf("yard? ");
+		
+		double a = scanner.nextDouble();
+		
+		System.out.printf("%.1fyard = %.1fcm",a,a*yd);
+	}
+}
 
 
 
