@@ -141,11 +141,12 @@ public class Ch02Ex02_03 {
 	public static void main(String[] args) {
 		
 		Scanner a = new Scanner(System.in);
-		String input = a.nextLine();
-		System.out.println(input);
-		
 		Scanner b = new Scanner(System.in);
+		
+		String input = a.nextLine();
 		String input2 = b.nextLine();
+		
+		System.out.println(input);
 		System.out.println(input2);
 	}
 }
@@ -174,5 +175,55 @@ public class Ch02Ex02_04 {
 ===============================================================
 
 // 2-5
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_05 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		float b = scanner.nextFloat();
+		System.out.printf("%d * %.6f = %.6f", a,b,a*b);
+		
+	}
+}
+
+===============================================================
+
+// 2-6
+
+package ex;
+
+import java.util.*;
+
+public class Ch02Ex02_06 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		double yd = 91.44;
+		double in = 2.54;
+		
+		double input = scanner.nextDouble();
+		double input2 = scanner.nextDouble();
+		
+		System.out.printf("%4.1fyd = %5.1fcm\n", input, yd*input);
+		System.out.printf("%4.1fyd = %5.1fcm\n", input2, in*input2);
+	}
+}
+
+==============================================================
+
+// 2-7
+
+
+
+
+
 
 
