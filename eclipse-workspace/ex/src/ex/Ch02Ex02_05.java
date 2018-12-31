@@ -2,17 +2,15 @@ package ex;
 
 import java.util.*;
 
-public class Ch02Ex02_04 {
+public class Ch02Ex02_05 {
 
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
 		
 		int a = scanner.nextInt();
-		int b = scanner.nextInt();
-		
-		System.out.printf("55 - 10 = %d\n",a);
-		System.out.printf("2008 - 1999 = %d\n",b);
+		float b = scanner.nextFloat();
+		System.out.printf("%d * %.6f = %.6f", a,b,a*b);
 
 	}
 }
