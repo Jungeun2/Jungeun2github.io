@@ -39,4 +39,4 @@ class FlowEx8 {
 
 # switch문의 중첩
 
-if문처럼 switch문도 중첩이 가능하다. 주의할 점은 중첩 switch문에서 break문을 빼먹지 않도록 조심!
+if문처럼 switch문도 중첩이 가능하다. 주의할 점은 중첩 switch문에서 break문을 빼먹지 않도록 조심
