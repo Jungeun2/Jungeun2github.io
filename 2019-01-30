@@ -44,4 +44,4 @@ ex) int [] arr = new int [5];
     int [] tmp = new int [arr.length*2];  // 기존 배열보다 길이가 2배인 배열 생성
     for(int i = 0; i < arr.length; i++)
       tmp[i] = arr.[i];  // arr[i]의 값을 tmp[i]에 저장
-    arr = tmp;  // 참조변수 arr이 새로운 배열을 가리키게 ㅎ한다.
+    arr = tmp;  // 참조변수 arr이 새로운 배열을 가리키게 한다.
