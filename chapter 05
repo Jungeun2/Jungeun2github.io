@@ -1,0 +1,68 @@
+▷ Java의 정석 [ Chapter 05 - 배열 ]
+
+# 배열의 활용 - 임의의 값으로 배열 채우기
+
+배열을 연속적인 범위의 임의의 값으로 채우는 것은 다음과 같이 random()만 사용하면 할 수 있다.
+ex) for(i=0;i<arr.length;i++) {
+        arr[i] = (int)(Math.random()*5);  0~4범위의 임의의 값을 저장
+    }
+
+# String배열의 선언과 생성
+
+배열의 타입이 String인 경우에도 int배열의 선언과 생성방법은 다르지 않다.
+ex) String[] name = new String[3] // 3개의 문자열을 담을 수 있는 배열을 생성한다.
+
+# String배열의 초기화
+
+배열의 초기화 역시 int배열과 동일한 방법으로 한다.
+ex) String[] name = new String[3];  // 길이가 3인 String배열을 생성
+    name[0] = "Kim";
+    name[1] = "Park";
+    name[2] = "Yi";
+    또는 괄호를 사용해서 다음과 같이 간단히 초기화 할 수도 있다.
+    String[] name = new String[] { "Kim", "Park", "Yi" };
+
+# char배열과 String클래스
+
+지금까지 여러 문자, 즉 문자열을 저장할 때 String타입의 변수를 사용했다. String타입은 문잡배열인 char열과 같은 뜻을 가지고 있다.
+자바에서는 char배열이 아닌 String클래스를 이용해서 문자열을 처리하는 이유는 String클래스가 char배열에 여러 가지 기능을 추가해 확장한 것이기 때문이다.
+그래서 char배열을 사용하는 것보다 String클래스를 사용하는 것이 문자열을 다루기 더 편리하다.
+
+char배열과 String클래스의 한 가지 중요한 차이가 있는데, String객체는 읽을 수만 있을 뿐 내용을 변경할 수는 없다는 것이다.
+ex) String str = "Java";
+    str = str + "8";          // "Java8"이라는 새로운 문자열이 str에 저장된다.
+    System.out.println(str);
+    위의 문장에서 문자열 str의 내용이 변경되는 것 같지만, 문자열은 변경할 수 없으므로 새로운 내용의 문자열이 생성된다.
+    
+# String클래스의 주요 메서드
+
+① char charAt(int index)  - 문자열에서 해당 위치(index)에 있는 문자를 반환한다.
+② int length()  - 문자열의 길이를 반환한다.
+③ String substring(int from, int to)  - 문자열에서 해당 범위(from~to)에 있는 문자열을 반환한다. (to는 범위에 포함X)
+④ boolean equals(String str)  - 문자열의 내용이 같은지 확인한다. 같으면 true, 다르면 false가 된다.
+⑤ char[] toCharArray()  - 묹자열을 문자배열(char[])로 변환해서 반환한다.
+
+# char배과 String클래스의 변환
+
+가끔 char배열을 String클래스로 변환하거나, 또는 그 반대로 변환해야하는 경우가 있다. 그럴 때는 다음의 코드를 사용하자.
+ex) char[] chArr = { 'A', 'B', 'C' };
+    String str = new String(chArr); // char배열 > String
+    char[] tmp = str.toCharArray(); // String > char배열
+
+# 2차원 배열의 선언과 인덱스
+
+2차원 배열을 선언하는 방법은 1차원 배열과 같다. 다만만 괄호가 하나 더 들어갈 뿐이다.
+    선언 방법           선언 예
+타입[][] 변수이름;   int[][] score;
+타입 변수이름[][];   int score [][];
+타입[] 변수이름;     int[] score[];
+
+2차원 배열은 주로 테이블 형태의 데이터를 담는데 사용되며, 만일 4행 3열의 데이터를 다담기 위한 배열을 생성하려면 다음과 같이한다.
+ex) int[][] score = new int[4][3];
+
+# 2차원 배열의 초기화
+
+2차원 배열도 괄호를 사용해서 생성과 초기화를 동시에 할 수 있다.
+ex) int[][] arr = new int[][] { {1, 2, 3}, {4, 5, 6} };
+    int[][] arr = { {1, 2, 3}, {4, 5, 6} };   // new int[][] 생략
+   
